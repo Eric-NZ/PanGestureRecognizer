@@ -12,16 +12,16 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizer_Trash" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PanGestureRecognizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" translatesAutoresizingMaskIntoConstraints="NO" id="I68-7O-W83">
-                                <rect key="frame" x="257" y="557" width="91" height="90"/>
+                                <rect key="frame" x="259" y="570" width="89" height="77"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="a7Z-ED-wGx"/>
-                                    <constraint firstAttribute="width" constant="91" id="gC9-UD-Cpz"/>
+                                    <constraint firstAttribute="height" constant="77" id="a7Z-ED-wGx"/>
+                                    <constraint firstAttribute="width" constant="89" id="gC9-UD-Cpz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="file" translatesAutoresizingMaskIntoConstraints="NO" id="e8X-oR-D9u">
@@ -42,7 +42,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="fileView" destination="e8X-oR-D9u" id="9fm-bP-AV9"/>
+                        <outlet property="fileImageView" destination="e8X-oR-D9u" id="9fm-bP-AV9"/>
                         <outlet property="trashView" destination="I68-7O-W83" id="wC9-39-1Oa"/>
                     </connections>
                 </viewController>

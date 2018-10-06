@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		213A6C11216899800096A85C /* GestureRecognizer-Trash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GestureRecognizer-Trash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		213A6C11216899800096A85C /* PanGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213A6C14216899800096A85C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		213A6C16216899800096A85C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		213A6C19216899800096A85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		213A6C08216899800096A85C = {
 			isa = PBXGroup;
 			children = (
-				213A6C13216899800096A85C /* GestureRecognizer-Trash */,
+				213A6C13216899800096A85C /* PanGestureRecognizer */,
 				213A6C12216899800096A85C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		213A6C12216899800096A85C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				213A6C11216899800096A85C /* GestureRecognizer-Trash.app */,
+				213A6C11216899800096A85C /* PanGestureRecognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		213A6C13216899800096A85C /* GestureRecognizer-Trash */ = {
+		213A6C13216899800096A85C /* PanGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
 				213A6C14216899800096A85C /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				213A6C1D216899810096A85C /* LaunchScreen.storyboard */,
 				213A6C20216899810096A85C /* Info.plist */,
 			);
-			path = "GestureRecognizer-Trash";
+			path = PanGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		213A6C10216899800096A85C /* GestureRecognizer-Trash */ = {
+		213A6C10216899800096A85C /* PanGestureRecognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 213A6C23216899810096A85C /* Build configuration list for PBXNativeTarget "GestureRecognizer-Trash" */;
+			buildConfigurationList = 213A6C23216899810096A85C /* Build configuration list for PBXNativeTarget "PanGestureRecognizer" */;
 			buildPhases = (
 				213A6C0D216899800096A85C /* Sources */,
 				213A6C0E216899800096A85C /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "GestureRecognizer-Trash";
+			name = PanGestureRecognizer;
 			productName = "GestureRecognizer-Trash";
-			productReference = 213A6C11216899800096A85C /* GestureRecognizer-Trash.app */;
+			productReference = 213A6C11216899800096A85C /* PanGestureRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 213A6C0C216899800096A85C /* Build configuration list for PBXProject "GestureRecognizer-Trash" */;
+			buildConfigurationList = 213A6C0C216899800096A85C /* Build configuration list for PBXProject "PanGestureRecognizer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				213A6C10216899800096A85C /* GestureRecognizer-Trash */,
+				213A6C10216899800096A85C /* PanGestureRecognizer */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23K44RMKVB;
-				INFOPLIST_FILE = "GestureRecognizer-Trash/Info.plist";
+				INFOPLIST_FILE = PanGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23K44RMKVB;
-				INFOPLIST_FILE = "GestureRecognizer-Trash/Info.plist";
+				INFOPLIST_FILE = PanGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213A6C0C216899800096A85C /* Build configuration list for PBXProject "GestureRecognizer-Trash" */ = {
+		213A6C0C216899800096A85C /* Build configuration list for PBXProject "PanGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				213A6C21216899810096A85C /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		213A6C23216899810096A85C /* Build configuration list for PBXNativeTarget "GestureRecognizer-Trash" */ = {
+		213A6C23216899810096A85C /* Build configuration list for PBXNativeTarget "PanGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				213A6C24216899810096A85C /* Debug */,
