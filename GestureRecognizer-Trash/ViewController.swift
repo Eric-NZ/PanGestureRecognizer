@@ -10,11 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fileView: UIImageView!
+    @IBOutlet weak var trashView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // add getsture recognizer for fileView
+        addPullGesture(view: fileView)
+        
     }
 
+    // setup gesture recognizer for a UIView.
+    func addPullGesture(view: UIView) {
+        let pull = UIGestureRecognizer(target: self, action: #selector(handlePull))
+        view.addGestureRecognizer(pull)
+        // make sure set this property to true
+        view.isUserInteractionEnabled = true
+    }
 
+    @objc func handlePull() {
+        
+    }
 }
 

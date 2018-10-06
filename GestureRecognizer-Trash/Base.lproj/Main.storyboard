@@ -41,6 +41,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="fileView" destination="e8X-oR-D9u" id="9fm-bP-AV9"/>
+                        <outlet property="trashView" destination="I68-7O-W83" id="wC9-39-1Oa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
